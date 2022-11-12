@@ -11,6 +11,3 @@ def create_bezier(p0, p1, p2, p3):
     pX, pY = curve.calc_points()
     plt.plot(pX, pY, 'b', linewidth=5)
     plt.show()
-
-
-create_bezier(a([0, 0]), a([1, 1]), a([2, 0]), a([3, 1]))
